@@ -114,7 +114,7 @@ export default MyComponent;
 | ---------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | open             | `boolean`             | Shows or hide the sidebar.                                                                                                                      |
 | onToggle         | `function`            | function to change the current state of sidebar, to show or to hide.                                                                            |
-| options          | `Array`               | having all the options of the sidebar (see details)                                                                                             |
+| options          | `Array`               | having all the options of the sidebar ([see details](https://github.com/omerkhan8/react-multilevel-sidebar#options))                            |
 | header           | `string|element|node` | main header of the sidebar, it could be some string text, or a custom react component.                                                          |
 | persist          | `boolean`             | if true the sidebar will open from the level where it was closed, else sidebar will always open from the first level.                           |
 | wrapperClassName | `string`              | css class for custom styles will be applied on sidebar main wrapper, you can then override the styles for nested elements using selectors.      |
@@ -221,6 +221,8 @@ the same above structure will be repeated for each children.
 ##### `your options`: any (optional)
 
 whenever you'll click an item `onItemClick` callback will be triggered and it will have the options for that item in its first parameter, you may want something in those options for your custom logic, so you can simply pass them here in the options so you can do something with them when you click it.
+
+you can see the nested options example [here](https://github.com/omerkhan8/react-multilevel-sidebar/blob/master/example/Sidebar.config.js)
 
 ## License
 
