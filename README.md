@@ -108,7 +108,7 @@ class MyComponent extends Component {
 export default MyComponent;
 ```
 
-#### `<MultilevelSidebar/>` Props:
+### `<MultilevelSidebar/>` Props:
 
 | Prop name        | Type                  | Description                                                                                                                                     |
 | ---------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -123,7 +123,7 @@ export default MyComponent;
 | onItemClick      | `function`            | this function will be triggered whenever you'll click on any item in the sidebar. It will recieve options from that item in the first parameter |
 | onBackClick      | `function`            | this function will be triggered every time the back button will be pressed from a nested level.                                                 |
 
-#### `Options`
+### `Options`:
 
 Options is the main prop for the sidebar here you can define/structure how your sidebar will looks like. (It is better to create a seperate file for your options and then import it where ever you're using this component and then pass it there as a prop).
 It will be an array of objects, the first level object will be specifying the title and heading for a specific category they're optional so if you don't want to break into the categories you can skip them and only use the `content` property.
