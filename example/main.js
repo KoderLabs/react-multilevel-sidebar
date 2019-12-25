@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <Sidebar
+      <MultilevelSidebar
         open={open}
         onToggle={handleSidebarToggle}
         options={options}
