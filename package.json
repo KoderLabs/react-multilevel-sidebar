@@ -6,8 +6,11 @@
   "style": "./src/Sidebar.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/omerkhan8"
+    "url": "https://github.com/omerkhan8/react-multilevel-sidebar"
   },
+  "files": [
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
