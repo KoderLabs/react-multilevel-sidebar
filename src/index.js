@@ -2,7 +2,6 @@ import React, { Component, Fragment } from "react";
 import classNames from "classnames";
 import PropTypes from "prop-types";
 
-// import "./Sidebar.css";
 
 class Sidebar extends Component {
   constructor() {
@@ -28,6 +27,9 @@ class Sidebar extends Component {
   }
 
   handleTabClick(tabData) {
+    if (!!tabData.disabled) {
+      return;
+    }
     const { onItemClick } = this.props;
 
     if (tabData.children) {
@@ -232,7 +234,7 @@ const SidebarContent = props => {
                   {data.content.map((list, index) => {
                     return (
                       <Fragment key={index}>
-                        {list.to && !list.children ? (
+                        {list.to && !list.children && !list.disabled ? (
                           <a href={list.to}>
                             <li
                               className={classNames({
