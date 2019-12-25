@@ -1,0 +1,50 @@
+{
+  "name": "react-multilevel-sidebar",
+  "version": "1.0.0",
+  "description": "multilevel sidebar component for react",
+  "main": "./build/index.js",
+  "style": "./src/Sidebar.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omerkhan8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Omer Khan",
+    "email": "omerkhan842@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "sidebar",
+    "multilevel",
+    "react-multilevel",
+    "react-sidebar",
+    "multilevel-sidebar",
+    "react-multilevel-sidebar"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.41.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.4.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "style-loader": "^1.1.1",
+    "webpack-cli": "^3.3.10"
+  }
+}
