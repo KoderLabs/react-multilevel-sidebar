@@ -230,6 +230,6 @@ This source code is licensed under the MIT license.
 
 ## Author
 
-| name      | email                 |
-| --------- | --------------------- |
-| Omer Khan | omerkhan842@gmail.com |
+| name      |
+| --------- |
+| Omer Khan |
