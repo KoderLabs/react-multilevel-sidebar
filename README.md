@@ -115,7 +115,7 @@ export default MyComponent;
 | open             | `boolean`             | Shows or hide the sidebar.                                                                                                                      |
 | onToggle         | `function`            | function to change the current state of sidebar, to show or to hide.                                                                            |
 | options          | `Array`               | having all the options of the sidebar ([see details](https://github.com/omerkhan8/react-multilevel-sidebar#options))                            |
-| header           | `string|element|node` | main header of the sidebar, it could be some string text, or a custom react component.                                                          |
+| header           | `string/element/node` | main header of the sidebar, it could be some string text, or a custom react component.                                                          |
 | persist          | `boolean`             | if true the sidebar will open from the level where it was closed, else sidebar will always open from the first level.                           |
 | wrapperClassName | `string`              | css class for custom styles will be applied on sidebar main wrapper, you can then override the styles for nested elements using selectors.      |
 | headerClassName  | `string`              | css class for header if not using a custom header by composition. you can style the default one.                                                |
