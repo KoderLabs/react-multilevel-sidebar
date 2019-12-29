@@ -1,6 +1,6 @@
 {
   "name": "react-multilevel-sidebar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "multilevel sidebar component for react",
   "main": "./build/index.js",
   "style": "./src/Sidebar.css",
@@ -8,9 +8,6 @@
     "type": "git",
     "url": "https://github.com/omerkhan8/react-multilevel-sidebar"
   },
-  "files": [
-    "README.md"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
@@ -30,7 +27,7 @@
     "react-multilevel-sidebar"
   ],
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2"
   },
