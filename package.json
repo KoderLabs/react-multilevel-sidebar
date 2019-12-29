@@ -1,6 +1,6 @@
 {
   "name": "react-multilevel-sidebar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "multilevel sidebar component for react",
   "main": "./build/index.js",
   "style": "./src/Sidebar.css",

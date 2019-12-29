@@ -1,6 +1,6 @@
 # React Multilevel Sidebar
 
-[![version](https://img.shields.io/badge/version-1.0.2-gree.svg)](https://www.npmjs.com/package/react-multilevel-sidebar)
+[![version](https://img.shields.io/badge/version-1.0.3-gree.svg)](https://www.npmjs.com/package/react-multilevel-sidebar)
 
 react-multilevel-sidebar is a sidebar component for web and responsive mobile layout it gives
 you nested level menu where you can categorize your items.
